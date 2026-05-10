@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#306cc4" />
+      <stop offset="50%" stop-color="#807ae8" />
+      <stop offset="100%" stop-color="#5eead4" />
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4" />
+      <stop offset="100%" stop-color="#a89ff5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Central large spark / star -->
+  <path d="M 50 10 Q 50 40 80 50 Q 50 60 50 90 Q 50 60 20 50 Q 50 40 50 10 Z" fill="url(#iconGrad)" />
+  
+  <!-- Smaller sparkles -->
+  <path d="M 80 15 Q 80 25 90 25 Q 80 25 80 35 Q 80 25 70 25 Q 80 25 80 15 Z" fill="url(#sparkGrad)" />
+  <path d="M 25 20 Q 25 30 35 30 Q 25 30 25 40 Q 25 30 15 30 Q 25 30 25 20 Z" fill="url(#sparkGrad)" />
+  <path d="M 20 70 Q 20 75 25 75 Q 20 75 20 80 Q 20 75 15 75 Q 20 75 20 70 Z" fill="url(#sparkGrad)" />
+  <path d="M 75 75 Q 75 80 80 80 Q 75 80 75 85 Q 75 80 70 80 Q 75 80 75 75 Z" fill="url(#sparkGrad)" />
+</svg>
